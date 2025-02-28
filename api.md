@@ -1,3 +1,4 @@
+```
 Basic Web API Interview Questions
 1. What is a Web API?
 Answer: A Web API (Application Programming Interface) is a set of HTTP-based endpoints that allow applications to communicate with each other over the internet. It enables data exchange between clients (frontend) and servers (backend).
@@ -236,3 +237,4 @@ A: Implement versioning, maintain deprecated endpoints, and ensure smooth migrat
 Q: Explain the challenges of testing third-party API integrations and how to mitigate them.
 A: Issues include rate limits, response changes, and downtime. Mitigation strategies involve mock servers, contract testing, and fallback mechanisms.
 
+```
