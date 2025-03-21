@@ -265,7 +265,7 @@ Java DSA Interview Questions on Maths, Arrays, and Strings (With Code Examples)
        }
    }
    ```
-
+```
    1. **Q: How do you check if a number is prime in Java?**
    **A:** Use a loop from 2 to √n and check if `n % i == 0`. If any such `i` exists, it's not prime.
 
@@ -415,3 +415,4 @@ Java DSA Interview Questions on Maths, Arrays, and Strings (With Code Examples)
 
 50. **Q: How do you implement a max heap using an array?**
     **A:** Use a complete binary tree with heapify operations.
+```
