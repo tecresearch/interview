@@ -1,3 +1,4 @@
+```
 **Tailwind CSS Interview Questions and Answers**
 
 1. **Q:** What is Tailwind CSS?
@@ -8,9 +9,9 @@
 
 3. **Q:** What are utility classes in Tailwind CSS?
    **A:** Utility classes are small, single-purpose classes like `text-center`, `bg-red-500`, and `p-4` that apply specific styles to elements.
-
+```
 4. **Q:** How do you install Tailwind CSS in a project?
-   **A:** Tailwind CSS can be installed using npm or yarn:  
+ ```  **A:** Tailwind CSS can be installed using npm or yarn:  ```
    ```sh
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init
@@ -66,7 +67,7 @@
     ```html
     <div class="flex justify-center items-center h-screen">Centered</div>
     ```
-
+```
 14. **Q:** What are pseudo-classes in Tailwind?
     **A:** Prefixes like `hover:`, `focus:`, and `active:` allow styling elements based on state.
 
@@ -177,3 +178,4 @@
 
 50. **Q:** How do you set a fixed width and height?
     **A:** Use `w-32 h-32`.
+```
