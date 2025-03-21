@@ -23,7 +23,7 @@ ________________________________________
 
 1) Create maven project
 2) Configure dependencies in pom.xml
-3) Create persistence class 
+3) Create persistence or model class 
 4) Create HBM file 
 5) Create CFG file
 6) Create repository class
