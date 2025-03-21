@@ -1,4 +1,4 @@
-1. Q: What is SQL?
+``` 1. Q: What is SQL?
    A: SQL (Structured Query Language) is used to communicate with and manipulate databases.
 
 2. Q: What are the different types of SQL commands?
@@ -320,7 +320,7 @@ BCNF	Every determinant is a candidate key.
 5NF	No join dependencies.
 These normalization rules help create efficient, scalable, and easy-to-maintain databases.
 
-
+```
 
 
 
