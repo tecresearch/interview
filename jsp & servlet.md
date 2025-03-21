@@ -1,3 +1,4 @@
+```
 **JSP and Servlet Interview Questions and Answers**
 
 1. **What is the difference between JSP and Servlets?**
@@ -149,3 +150,4 @@
 
 50. **What are WebSockets, and how do they relate to JSP/Servlets?**
     WebSockets enable real-time bidirectional communication between the client and server.
+```
