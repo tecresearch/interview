@@ -1,4 +1,4 @@
-
+```
 1. Q: What is JavaScript?
    A: JavaScript is a lightweight, interpreted programming language used to create dynamic web content.
 
@@ -148,3 +148,4 @@
 
 50. Q: What is a WeakRef?
     A: A WeakRef holds a weak reference to an object to prevent memory leaks.
+```
