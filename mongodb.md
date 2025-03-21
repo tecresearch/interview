@@ -1,4 +1,4 @@
-1. Q: What is MongoDB?
+```1. Q: What is MongoDB?
    A: MongoDB is a NoSQL database that stores data in a flexible, JSON-like format.
 
 2. Q: How does MongoDB differ from relational databases?
@@ -147,3 +147,4 @@
 
 50. Q: How do you improve query performance in MongoDB?
     A: Use indexing, proper schema design, and optimize aggregation pipelines.
+```
