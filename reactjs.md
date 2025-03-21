@@ -1,3 +1,4 @@
+```
 1. **What is React.js?**
    - React.js is a JavaScript library for building user interfaces, especially for single-page applications where UI updates dynamically.
 
@@ -147,3 +148,4 @@
 
 50. **What is Concurrent Mode in React?**
     - A set of experimental features to improve responsiveness and rendering.
+```
