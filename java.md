@@ -148,3 +148,452 @@
 50. Q: How do you handle memory leaks in Java?
     A: Use proper resource management, avoid circular references, and utilize profiling tools.
 ```
+```
+51. What is the difference between ConcurrentHashMap and HashMap?
+HashMap: Not thread-safe, allows one null key and multiple null values.
+
+ConcurrentHashMap: Thread-safe, does not allow null keys or values, and provides better performance in multi-threaded environments.
+
+52. What is the difference between CountDownLatch and CyclicBarrier?
+CountDownLatch: A thread waits for other threads to complete their tasks before proceeding.
+
+CyclicBarrier: A set of threads wait for each other to reach a common barrier point.
+
+53. What is the purpose of the CompletableFuture class in Java?
+CompletableFuture is used for asynchronous programming and supports chaining, combining, and handling exceptions in asynchronous tasks.
+
+54. What is the difference between Stream and Collection in Java?
+Collection: A data structure to store and manipulate groups of objects.
+
+Stream: A sequence of elements supporting sequential and parallel aggregate operations.
+
+55. What is the difference between map() and flatMap() in Java Streams?
+map(): Transforms each element of the stream into another object.
+
+flatMap(): Transforms each element into a stream and flattens the resulting streams into a single stream.
+
+56. What is the purpose of the Optional class in Java?
+Optional is used to represent an object that may or may not contain a non-null value, reducing the need for null checks.
+
+57. What is the difference between peek() and forEach() in Java Streams?
+peek(): Used for debugging and intermediate operations.
+
+forEach(): Used for terminal operations to perform an action on each element.
+
+58. What is the difference between parallelStream() and stream().parallel()?
+Both methods enable parallel processing, but parallelStream() is a direct method on collections, while stream().parallel() is a method on the Stream interface.
+
+59. What is the purpose of the Spliterator interface in Java?
+Spliterator is used for traversing and partitioning elements of a source, especially for parallel processing.
+
+60. What is the difference between ReentrantLock and synchronized?
+synchronized: Built-in keyword for thread synchronization.
+
+ReentrantLock: Provides more flexibility, such as try-lock, fairness, and interruptible locks.
+
+61. What is the purpose of the StampedLock class in Java?
+StampedLock is an advanced lock that supports optimistic locking, read/write locks, and improved performance over ReentrantReadWriteLock.
+
+62. What is the difference between ThreadLocal and InheritableThreadLocal?
+ThreadLocal: Provides thread-specific variables.
+
+InheritableThreadLocal: Allows child threads to inherit values from parent threads.
+
+63. What is the purpose of the Phaser class in Java?
+Phaser is a reusable synchronization barrier that allows threads to wait for each other at multiple phases.
+
+64. What is the difference between ForkJoinPool and ExecutorService?
+ExecutorService: A general-purpose thread pool.
+
+ForkJoinPool: Optimized for divide-and-conquer tasks using the fork-join framework.
+
+65. What is the purpose of the VarHandle class in Java?
+VarHandle provides low-level, atomic operations on variables, replacing sun.misc.Unsafe in modern Java.
+
+66. What is the difference between AtomicInteger and volatile int?
+AtomicInteger: Provides atomic operations like increment, decrement, and compare-and-swap.
+
+volatile int: Ensures visibility but does not provide atomicity.
+
+67. What is the purpose of the Flow API in Java?
+The Flow API provides interfaces for implementing reactive streams in Java.
+
+68. What is the difference between Predicate, Consumer, and Supplier in Java?
+Predicate: Represents a boolean-valued function.
+
+Consumer: Represents an operation that accepts a single input and returns no result.
+
+Supplier: Represents a supplier of results.
+
+69. What is the purpose of the MethodHandle class in Java?
+MethodHandle provides a direct, type-safe reference to a method or field, enabling dynamic invocation.
+
+70. What is the difference between ClassLoader and ModuleLayer in Java?
+ClassLoader: Loads classes into the JVM.
+
+ModuleLayer: Manages modules in a modular system (introduced in Java 9).
+
+71. What is the purpose of the ServiceLoader class in Java?
+ServiceLoader is used to load service providers implementing a specific interface.
+
+72. What is the difference between ProcessBuilder and Runtime.exec()?
+Runtime.exec(): Executes a command in a separate process.
+
+ProcessBuilder: Provides more control over process creation and environment.
+
+73. What is the purpose of the Compact Strings feature in Java?
+Compact Strings optimize memory usage by using a byte array instead of a char array for strings containing only Latin-1 characters.
+
+74. What is the difference between String::new and String::valueOf?
+String::new: Creates a new String object.
+
+String::valueOf: Converts an object to its string representation.
+
+75. What is the purpose of the StackWalker class in Java?
+StackWalker provides a way to traverse and filter stack traces efficiently.
+
+76. What is the difference between ByteBuffer and MappedByteBuffer?
+ByteBuffer: A buffer for bytes.
+
+MappedByteBuffer: A direct buffer mapped to a region of a file.
+
+77. What is the purpose of the Varargs feature in Java?
+Varargs allows a method to accept a variable number of arguments of the same type.
+
+78. What is the difference between try-with-resources and finally?
+try-with-resources: Automatically closes resources declared in the try block.
+
+finally: Executes code regardless of whether an exception occurs.
+
+79. What is the purpose of the @SafeVarargs annotation in Java?
+@SafeVarargs suppresses warnings related to heap pollution when using varargs with generic types.
+
+80. What is the difference between Pattern.compile() and String.matches()?
+Pattern.compile(): Compiles a regex pattern for reuse.
+
+String.matches(): Compiles and matches a regex in one step.
+
+81. What is the purpose of the Files class in Java?
+The Files class provides utility methods for file operations, such as reading, writing, and copying.
+
+82. What is the difference between BufferedReader and Scanner?
+BufferedReader: Efficient for reading large text files.
+
+Scanner: Provides parsing capabilities for primitive types and strings.
+
+83. What is the purpose of the NIO.2 API in Java?
+NIO.2 provides improved file I/O operations, including asynchronous file channels and file system APIs.
+
+84. What is the difference between FileChannel and AsynchronousFileChannel?
+FileChannel: Synchronous file operations.
+
+AsynchronousFileChannel: Asynchronous file operations.
+
+85. What is the purpose of the WatchService class in Java?
+WatchService monitors directories for changes, such as file creation, modification, or deletion.
+
+86. What is the difference between JVM, JRE, and JDK?
+JVM: Executes Java bytecode.
+
+JRE: Provides libraries and JVM to run Java applications.
+
+JDK: Includes JRE and development tools for creating Java applications.
+
+87. What is the purpose of the jshell tool in Java?
+jshell is an interactive REPL (Read-Eval-Print Loop) tool for testing Java code snippets.
+
+88. What is the difference between module-info.java and MANIFEST.MF?
+module-info.java: Defines modules in the Java Platform Module System (JPMS).
+
+MANIFEST.MF: Defines metadata for JAR files.
+
+89. What is the purpose of the jlink tool in Java?
+jlink creates custom runtime images by linking modules and their dependencies.
+
+90. What is the difference between javac and java commands?
+javac: Compiles Java source code into bytecode.
+
+java: Executes Java bytecode.
+
+91. What is the purpose of the jmod tool in Java?
+jmod creates JMOD files for packaging modules.
+
+92. What is the difference between JIT and AOT compilation?
+JIT (Just-In-Time): Compiles bytecode to native code at runtime.
+
+AOT (Ahead-Of-Time): Compiles bytecode to native code before execution.
+
+93. What is the purpose of the GraalVM in Java?
+GraalVM is a high-performance runtime that supports multiple languages and provides AOT compilation.
+
+94. What is the difference between G1GC and ZGC?
+G1GC: A garbage collector designed for low-latency applications.
+
+ZGC: A scalable, low-latency garbage collector for large heaps.
+
+95. What is the purpose of the Epsilon garbage collector?
+Epsilon is a no-op garbage collector used for performance testing and short-lived applications.
+
+96. What is the difference between JVM and Docker?
+JVM: Executes Java bytecode.
+
+Docker: A platform for containerizing applications, including JVM-based apps.
+
+97. What is the purpose of the jstat tool in Java?
+jstat monitors JVM statistics, such as garbage collection and memory usage.
+
+98. What is the difference between jmap and jhat?
+jmap: Generates heap dumps.
+
+jhat: Analyzes heap dumps.
+
+99. What is the purpose of the jstack tool in Java?
+jstack generates thread dumps for debugging and analyzing thread states.
+
+100. What is the difference between JMX and JFR?
+JMX (Java Management Extensions): Monitors and manages JVM and application metrics.
+
+JFR (Java Flight Recorder): Records detailed runtime events for performance analysis.
+
+```
+```
+101. What is the difference between String, StringBuffer, and StringBuilder? Provide an example.
+Answer:
+
+String: Immutable and thread-safe.
+
+StringBuffer: Mutable and thread-safe.
+
+StringBuilder: Mutable and not thread-safe.
+
+Example:
+
+java
+Copy
+String str = "Hello";
+str.concat(" World"); // Creates a new String object
+
+StringBuffer buffer = new StringBuffer("Hello");
+buffer.append(" World"); // Modifies the same object
+
+StringBuilder builder = new StringBuilder("Hello");
+builder.append(" World"); // Modifies the same object
+102. Write a Java program to reverse a string using recursion.
+Answer:
+
+java
+Copy
+public class ReverseString {
+    public static String reverse(String str) {
+        if (str.isEmpty()) {
+            return str;
+        }
+        return reverse(str.substring(1)) + str.charAt(0);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(reverse("Hello")); // Output: olleH
+    }
+}
+103. Write a Java program to find the factorial of a number using recursion.
+Answer:
+
+java
+Copy
+public class Factorial {
+    public static int factorial(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        return n * factorial(n - 1);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(factorial(5)); // Output: 120
+    }
+}
+104. Write a Java program to check if a number is prime.
+Answer:
+
+java
+Copy
+public class PrimeNumber {
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPrime(29)); // Output: true
+    }
+}
+105. Write a Java program to find the Fibonacci series using recursion.
+Answer:
+
+java
+Copy
+public class Fibonacci {
+    public static int fibonacci(int n) {
+        if (n <= 1) return n;
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            System.out.print(fibonacci(i) + " "); // Output: 0 1 1 2 3 5 8 13 21 34
+        }
+    }
+}
+106. Write a Java program to implement a custom Comparator for sorting.
+Answer:
+
+java
+Copy
+import java.util.*;
+
+class Employee {
+    String name;
+    int age;
+
+    Employee(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+class AgeComparator implements Comparator<Employee> {
+    public int compare(Employee e1, Employee e2) {
+        return e1.age - e2.age;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        List<Employee> employees = Arrays.asList(
+            new Employee("John", 30),
+            new Employee("Alice", 25)
+        );
+        Collections.sort(employees, new AgeComparator());
+        employees.forEach(e -> System.out.println(e.name + " " + e.age));
+    }
+}
+107. Write a Java program to demonstrate the use of Optional.
+Answer:
+
+java
+Copy
+import java.util.Optional;
+
+public class OptionalExample {
+    public static void main(String[] args) {
+        Optional<String> optional = Optional.ofNullable(null);
+        System.out.println(optional.orElse("Default Value")); // Output: Default Value
+    }
+}
+108. Write a Java program to demonstrate the use of Stream API.
+Answer:
+
+java
+Copy
+import java.util.Arrays;
+import java.util.List;
+
+public class StreamExample {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        numbers.stream()
+               .filter(n -> n % 2 == 0)
+               .forEach(System.out::println); // Output: 2 4
+    }
+}
+109. Write a Java program to demonstrate the use of flatMap in Streams.
+Answer:
+
+java
+Copy
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class FlatMapExample {
+    public static void main(String[] args) {
+        List<List<String>> listOfLists = Arrays.asList(
+            Arrays.asList("a", "b"),
+            Arrays.asList("c", "d")
+        );
+        List<String> flatList = listOfLists.stream()
+                                           .flatMap(List::stream)
+                                           .collect(Collectors.toList());
+        System.out.println(flatList); // Output: [a, b, c, d]
+    }
+}
+110. Write a Java program to demonstrate the use of CompletableFuture.
+Answer:
+
+java
+Copy
+import java.util.concurrent.CompletableFuture;
+
+public class CompletableFutureExample {
+    public static void main(String[] args) {
+        CompletableFuture.supplyAsync(() -> "Hello")
+                         .thenApply(s -> s + " World")
+                         .thenAccept(System.out::println); // Output: Hello World
+    }
+}
+111. Write a Java program to demonstrate the use of ThreadLocal.
+Answer:
+
+java
+Copy
+public class ThreadLocalExample {
+    private static ThreadLocal<String> threadLocal = new ThreadLocal<>();
+
+    public static void main(String[] args) {
+        threadLocal.set("Main Thread");
+        System.out.println(threadLocal.get()); // Output: Main Thread
+
+        new Thread(() -> {
+            threadLocal.set("Worker Thread");
+            System.out.println(threadLocal.get()); // Output: Worker Thread
+        }).start();
+    }
+}
+112. Write a Java program to demonstrate the use of ReentrantLock.
+Answer:
+
+java
+Copy
+import java.util.concurrent.locks.ReentrantLock;
+
+public class ReentrantLockExample {
+    private static final ReentrantLock lock = new ReentrantLock();
+
+    public static void main(String[] args) {
+        lock.lock();
+        try {
+            System.out.println("Locked by " + Thread.currentThread().getName());
+        } finally {
+            lock.unlock();
+        }
+    }
+}
+113. Write a Java program to demonstrate the use of AtomicInteger.
+Answer:
+
+java
+Copy
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class AtomicIntegerExample {
+    private static AtomicInteger counter = new AtomicInteger(0);
+
+    public static void main(String[] args) {
+        System.out.println(counter.incrementAndGet()); // Output: 1
+    }
+}
+
+```
