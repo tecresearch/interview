@@ -1,3 +1,4 @@
+```
 1. Q: What is the Spring Framework?
    A: Spring is an open-source framework for building Java applications, providing features like dependency injection, aspect-oriented programming, and integration with various technologies.
 
@@ -147,3 +148,4 @@
 
 50. Q: What is the difference between Spring Boot and Spring Framework?
     A: Spring Boot simplifies Spring configuration, while Spring Framework provides core functionalities.
+```
