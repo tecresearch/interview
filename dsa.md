@@ -1,4 +1,4 @@
-**Data Structures and Algorithms (DSA) Interview Questions and Answers**
+```**Data Structures and Algorithms (DSA) Interview Questions and Answers**
 
 1. **Q:** What is the difference between an array and a linked list?
    **A:** An array is a fixed-size, contiguous memory data structure, whereas a linked list is dynamic and consists of nodes connected via pointers.
@@ -149,3 +149,4 @@
 
 50. **Q:** What is a Hamiltonian Path?
     **A:** A path that visits every vertex exactly once.
+```
