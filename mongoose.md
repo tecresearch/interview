@@ -1,3 +1,4 @@
+```
 1. Q: What is Mongoose in Node.js?
    A: Mongoose is an ODM (Object Data Modeling) library for MongoDB and Node.js that provides schema validation and query building.
 
@@ -147,3 +148,4 @@
 
 50. Q: What is the difference between `updateOne()` and `updateMany()`?
     A: `updateOne()` updates a single document, while `updateMany()` updates multiple documents.
+```
