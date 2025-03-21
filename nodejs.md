@@ -1,3 +1,4 @@
+```
 1. Q: What is Node.js?
    A: Node.js is a runtime environment that allows JavaScript to run on the server side, built on Chrome's V8 engine.
 
@@ -155,3 +156,4 @@
 
 50. Q: How do you implement rate limiting in Node.js?
     A: Using express-rate-limit or Redis.
+```
