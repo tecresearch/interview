@@ -1,3 +1,4 @@
+```
 How to answers these personal interview question
 ========================================================
 1. Q: Tell me about yourself.
@@ -350,3 +351,4 @@ and allocate time efficiently to meet all deadlines.
 50. **Do you have any questions for us?**  
    **Answer:** Yes, I would like to know more about the team structure and career growth opportunities.
 
+```
