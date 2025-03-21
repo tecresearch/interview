@@ -16,7 +16,7 @@
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init
    ```
-
+```
 5. **Q:** What is the purpose of the Tailwind CSS configuration file?
    **A:** The `tailwind.config.js` file allows customization of themes, colors, spacing, and other styles.
 
