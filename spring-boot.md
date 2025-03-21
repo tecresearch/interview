@@ -1,3 +1,4 @@
+```
 1. Q: What is Spring Boot and how does it simplify application development?
    A: Spring Boot is a framework that simplifies the development of Java applications by providing embedded servers, auto-configuration, and a set of pre-built features.
 
@@ -147,3 +148,4 @@
 
 50. Q: What is Spring Boot Admin?
     A: A UI-based monitoring tool for managing Spring Boot applications.
+```
