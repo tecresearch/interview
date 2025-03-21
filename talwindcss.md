@@ -11,7 +11,7 @@
    **A:** Utility classes are small, single-purpose classes like `text-center`, `bg-red-500`, and `p-4` that apply specific styles to elements.
 ```
 4. **Q:** How do you install Tailwind CSS in a project?
- ```  **A:** Tailwind CSS can be installed using npm or yarn:  ```
+  **A:** Tailwind CSS can be installed using npm or yarn:  
    ```sh
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init
