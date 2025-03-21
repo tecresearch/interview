@@ -1,3 +1,4 @@
+```
 1. What are the four main principles of OOP?
    - Encapsulation, Abstraction, Inheritance, and Polymorphism.
 
@@ -176,4 +177,4 @@ public class Main {
         myDog.makeSound();
     }
 }
-
+```
