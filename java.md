@@ -1,4 +1,4 @@
-1. Q: What is Java?
+```1. Q: What is Java?
    A: Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It is platform-independent due to its JVM (Java Virtual Machine).
 
 2. Q: What are the key features of Java?
@@ -147,3 +147,4 @@
 
 50. Q: How do you handle memory leaks in Java?
     A: Use proper resource management, avoid circular references, and utilize profiling tools.
+```
